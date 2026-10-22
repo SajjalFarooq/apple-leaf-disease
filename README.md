@@ -1,4 +1,12 @@
-# Apple Leaf Disease Classification — PlantVillage
+# Apple Leaf Disease Classification — PlantVillage Dataset
+
+Keywords: apple leaf disease classification, apple leaf dataset, PlantVillage,
+PlantVillage apple leaf dataset, apple scab, apple black rot,
+cedar apple rust, apple healthy leaf, plant disease classification,
+plant leaf disease detection, transfer learning, feature fusion,
+ResNet18, ResNet50, EfficientNet-B0, EfficientNet-B3, DenseNet121,
+MobileNetV2, VGG16, deep learning, image classification, PyTorch,
+computer vision agriculture
 
 ## 1. Problem
 Classify an apple leaf image into one of four classes:
