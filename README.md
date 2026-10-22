@@ -11,8 +11,13 @@ Apple Scab, Black Rot, Cedar Apple Rust, or Healthy.
 - Exact folders used: `raw/color/Apple___Apple_scab`,
   `raw/color/Apple___Black_rot`, `raw/color/Apple___Cedar_apple_rust`,
   `raw/color/Apple___healthy`
-- This repository contains the exact dataset used for training,
-  so no separate download is needed to reproduce the work.
+- NOTE: The dataset images (data/ folder, 12634 images, 267 MB) are
+  NOT uploaded to the GitHub repository, because GitHub browser upload
+  cannot handle 12634 files at once. The dataset is provided separately
+  in the upload folder with this code, in the exact split + augmented
+  form described below. To reproduce the work, place that data/ folder
+  next to this code, exactly as described in Section 6.3, and run the
+  code as described in Section 10. No re-split or re-augmentation is needed.
 
 ## 3. Original dataset (before split)
 | Class | Images |
