@@ -1,0 +1,84 @@
+{
+  "model": "mobilenet_v2",
+  "epochs": 1,
+  "best_val_accuracy": 0.9936908517350158,
+  "test_accuracy": 0.9747634069400631,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.09077234535524621,
+      "val_accuracy": 0.9936908517350158
+    }
+  ],
+  "classification_report": {
+    "Apple_scab": {
+      "precision": 1.0,
+      "recall": 0.873015873015873,
+      "f1-score": 0.9322033898305084,
+      "support": 63.0
+    },
+    "Black_rot": {
+      "precision": 0.96875,
+      "recall": 1.0,
+      "f1-score": 0.9841269841269841,
+      "support": 62.0
+    },
+    "Cedar_apple_rust": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 28.0
+    },
+    "Healthy": {
+      "precision": 0.9647058823529412,
+      "recall": 1.0,
+      "f1-score": 0.9820359281437125,
+      "support": 164.0
+    },
+    "accuracy": 0.9747634069400631,
+    "macro avg": {
+      "precision": 0.9833639705882353,
+      "recall": 0.9682539682539683,
+      "f1-score": 0.9745915755253012,
+      "support": 317.0
+    },
+    "weighted avg": {
+      "precision": 0.9756285952866952,
+      "recall": 0.9747634069400631,
+      "f1-score": 0.9741280088036716,
+      "support": 317.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      55,
+      2,
+      0,
+      6
+    ],
+    [
+      0,
+      62,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      28,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      164
+    ]
+  ],
+  "classes": [
+    "Apple_scab",
+    "Black_rot",
+    "Cedar_apple_rust",
+    "Healthy"
+  ]
+}
