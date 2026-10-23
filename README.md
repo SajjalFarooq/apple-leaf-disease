@@ -19,13 +19,15 @@ Apple Scab, Black Rot, Cedar Apple Rust, or Healthy.
 - Exact folders used: `raw/color/Apple___Apple_scab`,
   `raw/color/Apple___Black_rot`, `raw/color/Apple___Cedar_apple_rust`,
   `raw/color/Apple___healthy`
-- NOTE: The dataset images (data/ folder, 12634 images, 267 MB) are
-  NOT uploaded to the GitHub repository, because GitHub browser upload
-  cannot handle 12634 files at once. The dataset is provided separately
-  in the upload folder with this code, in the exact split + augmented
-  form described below. To reproduce the work, place that data/ folder
-  next to this code, exactly as described in Section 6.3, and run the
-  code as described in Section 10. No re-split or re-augmentation is needed.
+
+## Dataset
+
+The dataset IS now included in this repository as split ZIP parts in the `dataset/` folder: `apple-leaf-dataset.z01`–`apple-leaf-dataset.z12` and `apple-leaf-dataset.zip` (13 parts in total).
+
+To reassemble it:
+1. Download all 13 parts into one folder.
+2. Combine them with `zip -s 0 apple-leaf-dataset.zip --out apple-leaf-dataset-full.zip` and unzip the resulting file (or open `apple-leaf-dataset.zip` with 7-Zip/WinRAR, which reads split archives).
+3. After extraction you get `data/` with train (12,000 images, 3,000 per class), validation (317), test (317), plus `split_report.csv`.
 
 ## 3. Original dataset (before split)
 | Class | Images |
